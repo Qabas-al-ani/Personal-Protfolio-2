@@ -2,3 +2,8 @@
     border-radius: 50%;
 }
 
+body {
+    font-family: "Cinzel", serif;
+   
+    background-size: cover;
+  }
