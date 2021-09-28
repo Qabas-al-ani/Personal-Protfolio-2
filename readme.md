@@ -43,6 +43,6 @@ For any questions, please contact me with the information below:
 
 doctorqa@yahoo.com
 
-[LinkedIn Profile](ttps://www.linkedin.com/in/qabas-al-ani-7b858863/)
+[LinkedIn Profile]( https://www.linkedin.com/in/qabas-al-ani-7b858863/ )
 
-[Github Profile](https://github.com/https://github.com/Qabas-al-ani)
+[Github Profile]( https://github.com/Qabas-al-ani )
