@@ -1,4 +1,4 @@
-# Personal Portfolio
+# Personal Portfolio 2
 
 ---
 
@@ -35,7 +35,7 @@ to have a look for my work and projects that i've created
 ![ScreenShots](./Assets/images/screenshots/screenshot3q.png)
 ![ScreenShots](./Assets/images/screenshots/screenshot4q.png)
 
-[full demo video](http://127.0.0.1:5500/index.html)
+[full demo](https://qabas-al-ani.github.io/Personal-Protfolio-2/)
 
 ### Questions?
 
