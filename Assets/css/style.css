@@ -1,5 +1,7 @@
 .avatar {
-    border-radius: 50%;
+    border-radius: 80%;
+    position: right;
+    size: smaller;
 }
 
 body {
@@ -9,6 +11,57 @@ body {
   }
 
 
+
   p {
       font-size: 1.2em;
   }
+  .parallax-container {
+      height: 200px;
+  }
+
+  /* .carousel-item {
+
+   padding: auto;
+  } */
+
+  /* .carousel {
+      margin:0;
+      padding: 0;
+      height: 200px
+  } */
+
+  /* .row {
+      margin-top: 5px;
+  } */
+
+  /* .container {
+    margin: 0 auto;
+height: 600px;
+  } */
+
+  .carousel-item > .active {
+     
+      width: 70px !important;
+  }
+
+  .images {
+    width: 70px !important;
+  }
+
+  .tel   {
+      color: white;
+  }
+
+ .links {
+     color: white;
+ }
+
+ .contact-box {
+	display: flex;
+	justify-content: center;
+}
+
+input, textarea{
+    color: white;
+}
+
