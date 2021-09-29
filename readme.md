@@ -35,7 +35,7 @@ to have a look for my work and projects that i've created
 ![ScreenShots](./Assets/images/screenshots/screenshot3q.png)
 ![ScreenShots](./Assets/images/screenshots/screenshot4q.png)
 
-[full demo](https://qabas-al-ani.github.io/Personal-Protfolio-2/)
+[Click here to see the running app!](https://qabas-al-ani.github.io/Personal-Protfolio-2/)
 
 ### Questions?
 
