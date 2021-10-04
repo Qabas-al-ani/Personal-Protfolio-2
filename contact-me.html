@@ -4,7 +4,9 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" href="../images/team.png" type="image/png" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+
 
     <link
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
@@ -29,13 +31,16 @@
   </head>
 
   <body>
-    <header class="navbar-fixed">
+    <header class="">
       <nav>
         <div class="nav-wrapper black">
           <a href="#" class="brand-logo">Qabas Al Ani</a>
-          <ul id="nav-mobile" class="right hide-on-med-and-down">
-            <li><a href="index.html">About Me</a></li>
-            <li><a href="index.html">Projects</a></li>
+          <a href="#" class="sidenav-trigger" data-target="mobile-nav">
+            <i class="material-icons">menu</i>
+          </a>
+          <ul class="right hide-on-med-and-down">
+            <li><a href="./index.html">About Me</a></li>
+            <li><a href="./index.html">Projects</a></li>
             <li><a href="./contact-me.html">Contact Me</a></li>
             <li><a href="#email">Email</a></li>
             <li><a href="https://www.linkedin.com/in/qabas-al-ani-7b858863/" target="_blank">LinkedIn</a></li>
@@ -51,6 +56,29 @@
           </ul>
         </div>
       </nav>
+      
+      <ul id="mobile-nav" class="sidenav grey">
+        <li><a href="./index.html">About Me</a></li>
+        <li><a href="./index.html">Projects</a></li>
+        <li><a href="./contact-me.html">Contact Me</a></li>
+        <li><a href="#email">Email</a></li>
+        <li>
+          <a
+            href="https://www.linkedin.com/in/qabas-al-ani-7b858863/"
+            target="_blank"
+            >LinkedIn</a
+          >
+        </li>
+        <li>
+          <a
+            class="links"
+            href="./Assets/resume/qabas-al-ani-resume.pdf"
+            download
+          >
+            Download Resume</a
+          >
+        </li>
+      </ul>
     </header>
 
     <main>
@@ -107,22 +135,23 @@
 
     <footer class="page-footer black">
       <div class="container">
-        <div class="row">
+        <div class="row down-line">
           <div class="col l6 s12">
             <h4 id="contact">
               Contact Me:
-              <a class="links tel" href="tel:919-916-9571">919-916-9571</a>
+              <a class="links tel" href="tel:919-916-9571"
+                ><br />919-916-9571</a
+              >
             </h4>
 
             <h4 id="email">
               Email:
               <a class="links" href="mailto:doctorqa@yahoo.com"
-                >doctorqa@yahoo.com</a
+                ><br />doctorqa@yahoo.com</a
               >
             </h4>
           </div>
           <div class="col l4 offset-l2 s12">
-            
             <ul>
               <li>
                 <a
@@ -131,9 +160,13 @@
                   href="https://github.com/Qabas-al-ani"
                   ><h3>Qabas Al Ani</h3></a
                 >
-                <div class="container">© 2021 My Team</div>
               </li>
             </ul>
+            <div class="container">
+              © 2021<a href="https://github.com/Qabas-al-ani" target="_blank">
+                Qabas Al Ani</a
+              >
+            </div>
           </div>
         </div>
       </div>

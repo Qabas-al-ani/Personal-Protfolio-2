@@ -6,7 +6,6 @@
 
 body {
   font-family: "Cinzel", serif;
-
   background-size: cover;
 }
 
@@ -15,14 +14,6 @@ p {
 }
 .parallax-container {
   height: 200px;
-}
-
-.carousel-item > .active {
-  width: 70px !important;
-}
-
-.images {
-  width: 70px !important;
 }
 
 .tel {
@@ -41,4 +32,17 @@ p {
 input,
 textarea {
   color: white;
+}
+
+.nav-wrapper {
+  width: 100%;
+}
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+.down-line {
+  margin-bottom: 0;
 }
